@@ -13,6 +13,9 @@ An AI-powered trading bot that makes investing as easy as ordering food delivery
 - **Portfolio Tracking**: Watch your money grow (or not) in real-time
 - **Risk Management**: Keeps your investments safer than your ex's promises
 - **Social Trading**: Share strategies with the community
+- **OAuth Authentication**: Secure login with Google, GitHub, Microsoft, and Facebook
+- **Responsive Design**: Works on any device
+- **SEO Optimized**: Easy to find on search engines
 
 ## 🛠️ Tech Stack
 
@@ -24,19 +27,57 @@ An AI-powered trading bot that makes investing as easy as ordering food delivery
 
 ## 🚀 Quick Start
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/ai-trading-bot.git
+### Prerequisites
 
-# Navigate to project
-cd ai-trading-bot
+- Node.js (v14 or higher)
+- npm or yarn
+- Git
+- VS Code (recommended)
 
-# Install dependencies
-npm install
+### Installation
 
-# Start development server
-npm run dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-trading-bot.git
+   cd ai-trading-bot
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory with the following variables:
+   ```
+   # OAuth Client IDs
+   REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
+   REACT_APP_GITHUB_CLIENT_ID=your_github_client_id
+   REACT_APP_MICROSOFT_CLIENT_ID=your_microsoft_client_id
+   REACT_APP_FACEBOOK_CLIENT_ID=your_facebook_client_id
+
+   # API URL
+   API_URL=http://localhost:3001
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Development with VS Code
+
+1. Install recommended VS Code extensions:
+   - ESLint
+   - Prettier
+   - TypeScript and JavaScript Language Features
+   - GitLens (optional)
+
+2. Open the project in VS Code:
+   ```bash
+   code .
+   ```
+
+3. The project uses ESLint and Prettier for code formatting. VS Code will automatically format your code on save.
 
 ## 🤝 Contributing
 
@@ -88,6 +129,9 @@ Check out our [Wiki](https://github.com/yourusername/ai-trading-bot/wiki) for de
 - [x] Portfolio tracking
 - [x] Risk management
 - [x] Social trading features
+- [x] OAuth authentication
+- [x] Responsive design
+- [x] SEO optimized
 - [ ] Your amazing idea here!
 
 ## 🤖 AI Features

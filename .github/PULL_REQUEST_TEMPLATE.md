@@ -1,10 +1,14 @@
 # 🚀 Pull Request
 
 ## Description
-<!-- Describe your changes in detail -->
 
-## Type of Change
-<!-- Put an `x` in all the boxes that apply -->
+Please include a summary of the changes and the related issue. Please also include relevant motivation and context.
+
+Fixes # (issue)
+
+## Type of change
+
+Please delete options that are not relevant.
 
 - [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
 - [ ] ✨ New feature (non-breaking change which adds functionality)
@@ -16,13 +20,13 @@
 - [ ] ✅ Test update
 
 ## How Has This Been Tested?
-<!-- Describe the tests that you ran to verify your changes -->
+
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce.
 
 - [ ] Test A
 - [ ] Test B
 
 ## Checklist:
-<!-- Put an `x` in all the boxes that apply -->
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
@@ -36,4 +40,4 @@
 ## Screenshots (if appropriate):
 
 ## Additional Notes:
-<!-- Add any other information about the PR here --> 
+<!-- Add any other information about the PR here -->
