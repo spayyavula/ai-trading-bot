@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/yourusername
+    about: Join our Discord community for discussions and support
+  - name: 📚 Documentation
+    url: https://github.com/yourusername/ai-trading-bot/wiki
+    about: Check our documentation for detailed information
+  - name: 🐦 Twitter
+    url: https://twitter.com/yourusername
+    about: Follow us on Twitter for updates and announcements 

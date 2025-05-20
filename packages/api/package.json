@@ -1,0 +1,19 @@
+{
+  "name": "@option-trading-platform/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/node": "^16.18.0"
+  }
+} 
